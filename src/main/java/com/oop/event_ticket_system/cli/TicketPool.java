@@ -79,7 +79,7 @@ public class TicketPool {
 
         setBuyTicketCount(getBuyTicketCount() + ticketsToBuy); // Update the count of bought tickets
 
-        return "Customer " + customer + " successfully purchased " + ticketsToBuy + " ticket(s):\n" + purchasedTickets;
+        return "Customer :" + customer + " successfull y purchased ." + ticketsToBuy + " ticket(s):\n" + purchasedTickets;
     }
 
 }
