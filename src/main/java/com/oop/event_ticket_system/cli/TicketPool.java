@@ -10,7 +10,7 @@ public class TicketPool {
     private int buyTicketCount;
     private final List<String> tickets;
 
-    public TicketPool(TicketConfig ticketConfig, int buyTicketCount, int releaseTicketCount) {
+    public TicketPool(TicketConfig  ticketConfig, int buyTicketCount, int releaseTicketCount) {
         this.ticketConfig = ticketConfig;
         this.tickets =  Collections.synchronizedList(new ArrayList<>());;
         this.buyTicketCount = 0;
