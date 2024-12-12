@@ -21,7 +21,7 @@ public class TicketPool {
         return ticketConfig;
     }
 
-    public void setTicketConfig(TicketConfig ticketConfig) {
+    public void  setTicketConfig(TicketConfig ticketConfig) {
         this.ticketConfig = ticketConfig;
     }
 
